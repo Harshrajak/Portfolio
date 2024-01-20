@@ -394,8 +394,8 @@ header .follow a:hover {
 }
 
 .experience .box-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
@@ -447,8 +447,8 @@ header .follow a:hover {
 }
 
 .portfolio .box-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
